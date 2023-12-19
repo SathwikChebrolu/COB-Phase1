@@ -1,0 +1,44 @@
+body {
+    background-image: url("C:/Users/aakash/Desktop/SathwikChebrolu OneDrive/OneDrive/Pictures/Saved Pictures/sathwik_selfie.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
+}
+
+.btn-danger {
+    margin-left: 10px;
+}
+
+.list-group-item:hover .btn-danger {
+    opacity: 1;
+}
+
+.btn-danger {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
